@@ -10,22 +10,63 @@
 </head>
   <h1>What Type of Programming Language is Right for You?</h1>
     <p>This survey will help you determine the right programming language to learn based on your answers to the following questions:</p>
-    <form>
-    <ol>
-      <ul></ul>
-    </ol>
-
+  <form>
+    <p>I have past experience with coding/programming</p>
+    <label>
+      <input type="radio" name="pastExperience" value="true" checked>
+      True
+    </label><br>
+    <label>
+      <input type="radio" name="pastExperience" value="false">
+      False
+    </label>
+    <p>I enjoy data and numbers</p>
+    <label>
+      <input type="radio" name="enjoyData" value="true" checked>
+      True
+    </label><br>
+    <label>
+      <input type="radio" name="enjoyData" value="false">
+      False
+    </label>
+    <br>
+    <p>I enjoy design work and visual art</p>
+    <label>
+      <input type="radio" name="enjoyArt" value="true" checked>
+      True
+    </label><br>
+    <label>
+      <input type="radio" name="enjoyArt" vlaue="false">
+      False
+    </label>
+    <br>
+    <br>
+    <label for="favApp">What is your favorite app to use?</label>
+    <input id = "favApp" type = "text" name ="faveApp">
+    <br>
+    <br>
+    <label for= "cityInput">What city do you live in?</label>
+    <input id= "cityInput" type="text" name = "cityInput">
+    <br>
+    <br>
+    <label for= "favBeatle">Who is your favorite Beatle?</label>
+    <input id= "favBEatle" type="text" name = "favBeatle">
+    <br>
+    <br>
     <button type="submit">Show me my results!</button>
-    </form>
+  </form>
 
-<div id="sql" class="hidden">
+<div id="learnSql" class="hidden">
   <p>You shoud learn SQL! This language is great for people who love data and like to solve complex problems.</p>
 </div>
-<div id="ruby" class="hidden">
+<div id="learnRuby" class="hidden">
   <p>You shoud learn Ruby! This language is great for creative people.</p>
 </div>
-<div id="swift" class="hidden">
-  <p>You shoud learn Swift! This language is great for creative people.</p>
+<div id="learnHtml" class="hidden">
+  <p>You shoud learn HTML! HTML is great for beginners.</p>
+</div>
+<div id="learnSwift" class="hidden">
+  <p>You shoud learn Swift! Swift is very popular where you live.</p>
 </div>
 <body>
   
